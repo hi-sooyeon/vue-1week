@@ -28,6 +28,13 @@ import ParentComponent2 from "@/views/ParentComponent2";
 import SlotUseModalLayout from "@/views/SlotUseModalLayout";
 import ProvideInject from "@/views/ProvideInject";
 import Calculator from "@/views/Calculator";
+import CalculatorAPI from "@/views/CalculatorAPI";
+import CalculatorAPI2 from "@/views/CalculatorAPI2";
+import CalculatorAPI3 from "@/views/CalculatorAPI3";
+import CalculatorAPI4 from "@/views/CalculatorAPI4";
+import CompositionAPIProvide from "@/views/CompositionAPIProvide";
+import Plugins from "@/views/Plugins";
+import StoreAccess from "@/views/StoreAccess";
 
 const routes = [
   {
@@ -193,6 +200,41 @@ const routes = [
   path: '/calculator',
   name: 'Calculator',
   component: Calculator
+  },
+  {
+  path: '/calculatorapi',
+  name: 'CalculatorAPI',
+  component: CalculatorAPI
+  },
+  {
+    path: '/calculatorapi2',
+    name: 'CalculatorAPI2',
+    component: CalculatorAPI2
+  },
+  {
+    path: '/calculatorapi3',
+    name: 'CalculatorAPI3',
+    component: CalculatorAPI3
+  },
+  {
+    path: '/calculatorapi4',
+    name: 'CalculatorAPI4',
+    component: CalculatorAPI4
+  },
+  {
+  path: '/compositionapiprovide',
+  name: 'CompositionAPIProvide',
+  component: CompositionAPIProvide
+  },
+  {
+  path: '/plugins',
+  name: 'Plugins',
+  component: Plugins
+  },
+  {
+  path: '/storeaccess',
+  name: 'StoreAccess',
+  component: StoreAccess
   }
 ]
 

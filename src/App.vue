@@ -37,6 +37,14 @@
     <router-link to="/provideinject">ProvideInject</router-link>
     <hr>
     <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/calculatorapi">CalculatorAPI</router-link> |
+    <router-link to="/calculatorapi2">CalculatorAPI2</router-link> |
+    <router-link to="/calculatorapi3">CalculatorAPI3</router-link> |
+    <router-link to="/calculatorapi4">CalculatorAPI4</router-link> |
+    <router-link to="/compositionapiprovide">CompositionAPIProvide</router-link> |
+    <router-link to="/plugins">Plugins</router-link>
+    <hr>
+    <router-link to="/storeaccess">StoreAccess</router-link> |
   </div>
   <br>
   <router-view/>
