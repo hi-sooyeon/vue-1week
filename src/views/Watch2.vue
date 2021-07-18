@@ -23,8 +23,8 @@
 
 <script>
 export default {
-  name: "Watch", //컴포넌트 이름
-  component: {}, //다른 컴포넌트 사용 시 import(배열로 등록)
+  name: "Watch",
+  components: {},
   data() { //html과 js코드에서 사용할 데이터 변수 선언
     return {
       firstName: 'First',
@@ -43,6 +43,9 @@ export default {
   methods: {
     changeName(){
       this.firstName = 'Sooyeon'
+    },
+    open(){
+
     }
   }, //컴포넌트 내에서 사용할 메소드 정의
   watch: {

@@ -25,6 +25,9 @@ import DataBindingList2 from "@/views/DataBindingList2";
 import NestedComponent from "@/views/NestedComponent";
 import ParentComponent from "@/views/ParentComponent";
 import ParentComponent2 from "@/views/ParentComponent2";
+import SlotUseModalLayout from "@/views/SlotUseModalLayout";
+import ProvideInject from "@/views/ProvideInject";
+import Calculator from "@/views/Calculator";
 
 const routes = [
   {
@@ -175,6 +178,21 @@ const routes = [
     path: '/parentcomponent2',
     name: 'ParentComponent2',
     component: ParentComponent2
+  },
+  {
+  path: '/slotusemodallayout',
+  name: 'SlotUseModalLayout',
+  component: SlotUseModalLayout
+  },
+  {
+  path: '/provideinject',
+  name: 'ProvideInject',
+  component: ProvideInject
+  },
+  {
+  path: '/calculator',
+  name: 'Calculator',
+  component: Calculator
   }
 ]
 

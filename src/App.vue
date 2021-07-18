@@ -33,6 +33,10 @@
     <router-link to="/nestedcomponent">NestedComponent</router-link> |
     <router-link to="/parentcomponent">ParentComponent</router-link> |
     <router-link to="/parentcomponent2">ParentComponent2</router-link> |
+    <router-link to="/slotusemodallayout">SlotModal</router-link> |
+    <router-link to="/provideinject">ProvideInject</router-link>
+    <hr>
+    <router-link to="/calculator">Calculator</router-link> |
   </div>
   <br>
   <router-view/>
