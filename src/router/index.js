@@ -21,6 +21,10 @@ import EventChange from "@/views/EventChange";
 import Computed from "@/views/Computed";
 import Watch from "@/views/Watch";
 import Watch2 from "@/views/Watch2";
+import DataBindingList2 from "@/views/DataBindingList2";
+import NestedComponent from "@/views/NestedComponent";
+import ParentComponent from "@/views/ParentComponent";
+import ParentComponent2 from "@/views/ParentComponent2";
 
 const routes = [
   {
@@ -151,6 +155,26 @@ const routes = [
   path: '/watch2',
   name: 'Watch2',
   component: Watch2
+  },
+  {
+  path: '/databindinglist2',
+  name: 'DataBindingList2',
+  component: DataBindingList2
+  },
+  {
+  path: '/nestedcomponent',
+  name: 'NestedComponent',
+  component: NestedComponent
+  },
+  {
+  path: '/parentcomponent',
+  name: 'ParentComponent',
+  component: ParentComponent
+  },
+  {
+    path: '/parentcomponent2',
+    name: 'ParentComponent2',
+    component: ParentComponent2
   }
 ]
 

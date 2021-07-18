@@ -28,6 +28,11 @@
     <router-link to="/computed">Computed</router-link> |
     <router-link to="/watch">Watch</router-link> |
     <router-link to="/watch2">Watch2</router-link>
+    <hr>
+    <router-link to="/databindinglist2">Data Binding List2</router-link> |
+    <router-link to="/nestedcomponent">NestedComponent</router-link> |
+    <router-link to="/parentcomponent">ParentComponent</router-link> |
+    <router-link to="/parentcomponent2">ParentComponent2</router-link> |
   </div>
   <br>
   <router-view/>
